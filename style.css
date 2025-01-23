@@ -1307,3 +1307,41 @@ img {
 .contact {
   border-bottom: 1px solid #ffffff;
 }
+/* cntctmv */
+@media (max-width: 500px) {
+  .contact__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 0rem;
+   
+  }
+  .contact__title h2 {
+    text-align: center;
+  }
+  .contact__title {
+    margin: 0 auto;
+    justify-items: justify;
+  }
+  .contact__title p{
+    text-align: center;
+    font-size: 1.7rem;
+  }
+.contact__horizontal{
+  justify-items: center;
+}
+  .submit{
+    margin: 0 auto
+  }
+  .contact {
+    padding-top: 10rem ;
+    padding-bottom: 5rem;
+    
+  }
+  .contact__wrapper {
+  margin-right: 0rem;
+}
+.contact__details{
+  font-size:1.4rem;
+}
+}
